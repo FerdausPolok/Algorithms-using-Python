@@ -3,6 +3,7 @@ print("Linear Search using Python")
 
 strr= input("Please Enter the list by separating the item using black space: ")
 list11= list(strr.split(" "))
+print(list11)
 key1 = input("Please enter the key you want to find: ")
 
 
