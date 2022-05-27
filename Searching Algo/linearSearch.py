@@ -1,7 +1,8 @@
 print("Linear Search using Python")
 
-list1=[]
-list11= list(input("Please Enter the list without any space: "))
+
+strr= input("Please Enter the list by separating the item using black space: ")
+list11= list(strr.split(" "))
 key1 = input("Please enter the key you want to find: ")
 
 
