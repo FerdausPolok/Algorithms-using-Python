@@ -4,7 +4,7 @@ from turtle import left
 
 print("Binary Search using Python")
 
-strr= input("Please Enter a sorted list by separating the item using black space: ")
+strr= input("Please Enter list in descending order by separating the item using black space: ")
 list1= list(strr.split(" "))
 # list1.sort(key=str.lower)
 
