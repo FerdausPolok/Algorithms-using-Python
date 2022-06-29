@@ -1,7 +1,3 @@
-from ast import Num
-from turtle import left
-
-
 print("Binary Search using Python")
 
 strr= input("Please Enter list in descending order by separating the item using black space: ")
