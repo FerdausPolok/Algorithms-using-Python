@@ -25,14 +25,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "L:/WEB DEVELOPMENT/Python/Algorithms using Python"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;L:/WEB DEVELOPMENT/Python/Algorithms using Python&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.selectionSort">
+}</component>
+  <component name="RunManager" selected="Python.mergeSort (1)">
     <configuration name="binarySerach" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms using Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.selectionSort" />
         <item itemvalue="Python.mergeSort (1)" />
+        <item itemvalue="Python.selectionSort" />
         <item itemvalue="Python.binarySerach" />
         <item itemvalue="Python.mergeSort" />
       </list>

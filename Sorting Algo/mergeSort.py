@@ -1,34 +1,41 @@
-def mergeSort(array):
-    if len(array)<=1:
-        return array
-    midpoint= int(len(array)/2)
+def mergeSort(list):
+    #divide part
+    if len(list) > 1: #base case for recursive call
+        mid = len(list)//2
+        left_list = list[:mid]
+        right_list = list[mid:]
 
-    left = mergeSort(array[:midpoint])
-    right= mergeSort(array[midpoint:])
+        mergeSort(left_list)
+        mergeSort(right_list)
+
+        #merge part
+
+        i, j, k = 0, 0, 0
+
+        while i<len(left_list) and j<len(right_list):
+            if left_list[i] < right_list[j]:
+                list[k] = left_list[i]
+                i +=1
+                k +=1
+            else:
+                list[k] = right_list[j]
+                j += 1
+                k +=1
+
+        while i<len(left_list):
+            list[k] = left_list[i]
+            i += 1
+            k += 1
+
+        while j < len(right_list):
+            list[k] = right_list[j]
+            j += 1
+            k += 1
+
+    return list
 
 
-    return merge(left, right)
-
-def merge(left, right):
-    result = []
-
-    leftPointer= 0
-    rightPointer= 0
-
-    while leftPointer< len(left) and rightPointer< len(right):
-
-        if left[leftPointer] < right[rightPointer]:
-            result.append(left[leftPointer])
-            leftPointer += 1
-
-        else:
-            result.append(right[rightPointer])
-            rightPointer += 1
-
-    result.extend(left[leftPointer:])
-    result.extend(right[rightPointer:])
-
-    return result
 
 
-print(mergeSort([4,2,5,9,3,5,8,1,7,2,5,3,8,4,2,5,7]))
+
+print(mergeSort([10,2,7,3,5,8,1,5,74,2,2,7,2,8,52,6,74,2]))
