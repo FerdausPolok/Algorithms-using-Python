@@ -10,5 +10,5 @@ def selectionSort(list):
 
     print("Sorted List:", list)
 
-selectionSort([10, 9, 7, 3, 2, 1, 4, 5, 10])
+selectionSort([10,-1,85,12,7,3,8,1,4,3,5])
 
